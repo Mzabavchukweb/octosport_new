@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Oferta Octosport - rezerwacje hoteli, wycieczki zorganizowane, transport dla grup sportowych.">
+  <title>Oferta | Octosport</title>
+  <link rel="icon" type="image/png" href="../images/logo.png">
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header" id="header">
+    <div class="container header-inner">
+      <a href="../index.html" class="logo">
+        <img src="../images/logo.png" alt="Octosport">
+        <span class="logo-text">OCTOSPORT</span>
+      </a>
+      
+      <nav class="nav">
+        <a href="about.html" class="nav-link">O nas</a>
+        <a href="oferta.html" class="nav-link" style="color: var(--red);">
+          <span style="position: absolute; bottom: 0; left: 0; right: 0; height: 4px; background: var(--red);"></span>
+          Oferta
+        </a>
+        <a href="destinations.html" class="nav-link">Kierunki</a>
+        <a href="gallery.html" class="nav-link">Galeria</a>
+        <a href="contact.html" class="nav-link">Kontakt</a>
+        <a href="contact.html" class="btn btn-primary nav-cta">
+          <span>Rezerwuj</span>
+        </a>
+      </nav>
+      
+      <button class="nav-toggle" id="navToggle" aria-label="Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile Nav -->
+  <nav class="nav-mobile" id="navMobile">
+    <a href="about.html" class="nav-link">O nas</a>
+    <a href="oferta.html" class="nav-link">Oferta</a>
+    <a href="destinations.html" class="nav-link">Kierunki</a>
+    <a href="gallery.html" class="nav-link">Galeria</a>
+    <a href="contact.html" class="nav-link">Kontakt</a>
+  </nav>
+
+  <!-- PAGE HERO -->
+  <section class="page-hero">
+    <div class="container page-hero-content">
+      <div class="label fade-up">Co oferujemy</div>
+      <h1 class="h1 fade-up stagger-1">Oferta</h1>
+      <p class="fade-up stagger-2">Kompleksowa organizacja wyjazdów sportowych i turystycznych. Od rezerwacji po transport - wszystko w jednym miejscu.</p>
+      <div class="breadcrumb fade-up stagger-3">
+        <a href="../index.html">Strona główna</a>
+        <span>/</span>
+        <span class="breadcrumb-current">Oferta</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES MAIN -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header center fade-up">
+        <div class="label section-label">Nasza oferta</div>
+        <h2 class="h2 section-title">Kompleksowa organizacja</h2>
+        <p class="section-desc">Zajmujemy się każdym aspektem Twojego wyjazdu sportowego - od planowania po realizację.</p>
+      </div>
+      
+      <div class="services-grid">
+        <div class="service-card fade-up stagger-1">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
+              <polyline points="9 22 9 12 15 12 15 22"/>
+            </svg>
+          </div>
+          <h3>Rezerwacje hoteli</h3>
+          <p>
+            Proponujemy starannie wybrane ośrodki i hotele – od wybrzeża Morza Śródziemnego 
+            po polskie góry. Dzięki temu każda grupa zyskuje komfortowe warunki pobytu.
+          </p>
+          <ul style="margin-top: 24px; padding-left: 24px; color: rgba(255,255,255,0.6);">
+            <li>Hotele 3-5 gwiazdek</li>
+            <li>Ośrodki sportowe z pełnym wyposażeniem</li>
+            <li>Pokoje wieloosobowe dla grup</li>
+            <li>Najlepsze lokalizacje w centrach miast</li>
+          </ul>
+        </div>
+        
+        <div class="service-card fade-up stagger-2">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="10"/>
+              <polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"/>
+            </svg>
+          </div>
+          <h3>Wycieczki zorganizowane</h3>
+          <p>
+            Organizujemy obozy piłkarskie, obozy sportowe, zieloną szkołę. Każdy wyjazd 
+            jest starannie zaplanowany i dopasowany do potrzeb grupy.
+          </p>
+          <ul style="margin-top: 24px; padding-left: 24px; color: rgba(255,255,255,0.6);">
+            <li>Obozy piłkarskie i sportowe</li>
+            <li>Zielona szkoła dla dzieci</li>
+            <li>Turnieje i zawody sportowe</li>
+            <li>Programy treningowe dostosowane do poziomu</li>
+          </ul>
+        </div>
+        
+        <div class="service-card fade-up stagger-3">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="1" y="3" width="15" height="13" rx="2" ry="2"/>
+              <polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/>
+              <circle cx="5.5" cy="18.5" r="2.5"/>
+              <circle cx="18.5" cy="18.5" r="2.5"/>
+            </svg>
+          </div>
+          <h3>Transport</h3>
+          <p>
+            Zapewniamy transport autobusowy dla grup. Dzięki temu każdy dotrze na miejsce 
+            wygodnie i bez stresu.
+          </p>
+          <ul style="margin-top: 24px; padding-left: 24px; color: rgba(255,255,255,0.6);">
+            <li>Autokary klasy premium</li>
+            <li>Transport międzynarodowy</li>
+            <li>Transfery z lotnisk i dworców</li>
+            <li>Ubezpieczenie pasażerów w cenie</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CUSTOM OFFER -->
+  <section class="section section-light">
+    <div class="container">
+      <div class="about-content">
+        <div class="about-image fade-up stagger-1">
+          <img src="https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?w=800&q=80" alt="Obozy sportowe" loading="lazy">
+          <div class="about-image-accent"></div>
+        </div>
+        
+        <div class="about-text fade-up stagger-2">
+          <div class="label">Dla każdej grupy</div>
+          <h2 class="h2">Oferta szyta na miarę</h2>
+          <p style="font-size: 1.125rem; line-height: 1.8; margin-bottom: 24px; color: var(--gray);">
+            Stale rozszerzamy listę krajów i regionów, z którymi współpracujemy. 
+            Dla każdej grupy opracowujemy unikalne propozycje, spełniające wymogi 
+            nawet najbardziej wymagających Gości.
+          </p>
+          <p style="font-size: 1.125rem; line-height: 1.8; margin-bottom: 40px; color: var(--gray);">
+            Niezależnie od tego, czy szukasz obozu piłkarskiego dla dzieci, turnusu 
+            pływackiego dla młodzieży, czy wyjazdu integracyjnego dla drużyny – 
+            przygotujemy ofertę dopasowaną do Twoich potrzeb.
+          </p>
+          
+          <div class="about-features">
+            <div class="about-feature fade-up stagger-1">
+              <div class="about-feature-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="12" r="10"/>
+                  <line x1="2" y1="12" x2="22" y2="12"/>
+                  <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+                </svg>
+              </div>
+              <div>
+                <h4 style="font-size: 1.125rem; font-weight: 600; margin-bottom: 8px;">Obozy piłkarskie</h4>
+                <p style="color: var(--gray); font-size: 0.9375rem;">Profesjonalne treningi pod okiem wykwalifikowanych trenerów.</p>
+              </div>
+            </div>
+            
+            <div class="about-feature fade-up stagger-2">
+              <div class="about-feature-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M22 12h-4l-3 9L9 3l-3 9H2"/>
+                </svg>
+              </div>
+              <div>
+                <h4 style="font-size: 1.125rem; font-weight: 600; margin-bottom: 8px;">Obozy sportowe</h4>
+                <p style="color: var(--gray); font-size: 0.9375rem;">Różnorodne dyscypliny: pływanie, jujitsu, taniec i wiele innych.</p>
+              </div>
+            </div>
+            
+            <div class="about-feature fade-up stagger-3">
+              <div class="about-feature-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/>
+                  <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/>
+                </svg>
+              </div>
+              <div>
+                <h4 style="font-size: 1.125rem; font-weight: 600; margin-bottom: 8px;">Zielona szkoła</h4>
+                <p style="color: var(--gray); font-size: 0.9375rem;">Edukacyjne wyjazdy dla szkół z elementami sportu i rekreacji.</p>
+              </div>
+            </div>
+          </div>
+          
+          <a href="contact.html" class="btn btn-primary btn-lg" style="margin-top: 40px;">
+            <span>Zapytaj o ofertę</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SPORTS TYPES -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header center fade-up">
+        <div class="label section-label">Dyscypliny</div>
+        <h2 class="h2 section-title">Rodzaje aktywności</h2>
+        <p class="section-desc">Organizujemy wyjazdy dla różnych dyscyplin sportowych - od najbardziej popularnych po te unikalne.</p>
+      </div>
+      
+      <div class="values-grid" style="margin-top: 80px;">
+        <div class="value-card fade-up stagger-1">
+          <div class="value-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="10"/>
+              <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+            </svg>
+          </div>
+          <h3>Piłka nożna</h3>
+          <p>Profesjonalne treningi i turnieje piłkarskie na najlepszych obiektach w Europie.</p>
+        </div>
+        
+        <div class="value-card fade-up stagger-2">
+          <div class="value-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M22 12h-4l-3 9L9 3l-3 9H2"/>
+            </svg>
+          </div>
+          <h3>Pływanie</h3>
+          <p>Obozy pływackie i pływanie synchroniczne z doświadczonymi instruktorami.</p>
+        </div>
+        
+        <div class="value-card fade-up stagger-3">
+          <div class="value-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M14.5 10c-.83 0-1.5-.67-1.5-1.5v-5c0-.83.67-1.5 1.5-1.5s1.5.67 1.5 1.5v5c0 .83-.67 1.5-1.5 1.5z"/>
+              <path d="M20.5 10H19V8.5c0-.83.67-1.5 1.5-1.5s1.5.67 1.5 1.5-.67 1.5-1.5 1.5z"/>
+              <path d="M9.5 14c.83 0 1.5.67 1.5 1.5v5c0 .83-.67 1.5-1.5 1.5S8 21.33 8 20.5v-5c0-.83.67-1.5 1.5-1.5z"/>
+              <path d="M3.5 14H5v1.5c0 .83-.67 1.5-1.5 1.5S2 16.33 2 15.5 2.67 14 3.5 14z"/>
+              <path d="M14 14.5c0-.83.67-1.5 1.5-1.5h5c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5h-5c-.83 0-1.5-.67-1.5-1.5z"/>
+              <path d="M15.5 19H14v1.5c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5z"/>
+              <path d="M10 9.5c0 .83-.67 1.5-1.5 1.5h-5C2.67 11 2 10.33 2 9.5S2.67 8 3.5 8h5c.83 0 1.5.67 1.5 1.5z"/>
+              <path d="M8.5 5H10V3.5C10 2.67 9.33 2 8.5 2S7 2.67 7 3.5 7.67 5 8.5 5z"/>
+            </svg>
+          </div>
+          <h3>Jujitsu</h3>
+          <p>Sztuki walki pod okiem mistrzów i doświadczonych instruktorów z różnych krajów.</p>
+        </div>
+        
+        <div class="value-card fade-up stagger-4">
+          <div class="value-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M9 18V5l12-2v13"/>
+              <circle cx="6" cy="18" r="3"/>
+              <circle cx="18" cy="16" r="3"/>
+            </svg>
+          </div>
+          <h3>Taniec</h3>
+          <p>Różne style tańca, w tym taniec na wrotkach i taniec towarzyski dla każdego poziomu.</p>
+        </div>
+        
+        <div class="value-card fade-up stagger-5">
+          <div class="value-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/>
+            </svg>
+          </div>
+          <h3>I wiele innych</h3>
+          <p>Organizujemy również inne formy aktywności na życzenie - zapytaj o szczegóły!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-section">
+    <div class="cta-left">
+      <h2 class="h1">Zainteresowany<br>naszą<br>ofertą?</h2>
+    </div>
+    <div class="cta-right">
+      <p>Skontaktuj się z nami i opowiedz o swoich potrzebach. Przygotujemy ofertę szytą na miarę, spełniającą wszystkie Twoje oczekiwania!</p>
+      <div class="cta-btns">
+        <a href="contact.html" class="btn btn-primary btn-lg">
+          <span>Skontaktuj się</span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M5 12h14M12 5l7 7-7 7"/>
+          </svg>
+        </a>
+        <a href="destinations.html" class="btn btn-outline btn-lg">
+          <span>Zobacz kierunki</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-bar">
+      <h3>Zarezerwuj wyjazd już dziś!</h3>
+      <p>Dołącz do ponad 500 zadowolonych uczestników</p>
+      <a href="contact.html" class="btn">
+        <span>Skontaktuj się</span>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M5 12h14M12 5l7 7-7 7"/>
+        </svg>
+      </a>
+    </div>
+    
+    <div class="footer-main">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <a href="../index.html" class="logo">
+              <img src="../images/logo.png" alt="Octosport">
+            </a>
+            <p>Sport & Event & Travel. Organizujemy niezapomniane wyjazdy sportowe od ponad 10 lat dla klientów z całej Europy.</p>
+            <div class="footer-social">
+              <a href="https://instagram.com/octosport" aria-label="Instagram">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="2" y="2" width="20" height="20" rx="5"/>
+                  <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+                  <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+                </svg>
+              </a>
+              <a href="https://facebook.com/octosport" aria-label="Facebook">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+                </svg>
+              </a>
+              <a href="https://tripadvisor.com" aria-label="TripAdvisor">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="12" r="10"/>
+                  <circle cx="12" cy="12" r="3"/>
+                </svg>
+              </a>
+            </div>
+          </div>
+          
+          <div class="footer-col">
+            <h4>Nawigacja</h4>
+            <nav class="footer-links">
+              <a href="about.html">O nas</a>
+              <a href="oferta.html">Oferta</a>
+              <a href="destinations.html">Kierunki</a>
+              <a href="gallery.html">Galeria</a>
+            </nav>
+          </div>
+          
+          <div class="footer-col">
+            <h4>Informacje</h4>
+            <nav class="footer-links">
+              <a href="contact.html">Kontakt</a>
+            </nav>
+          </div>
+          
+          <div class="footer-col">
+            <h4>Kontakt</h4>
+            <nav class="footer-links">
+              <a href="mailto:kontakt@octosport.eu">kontakt@octosport.eu</a>
+              <a href="tel:+48604135612">+48 604 135 612</a>
+              <a href="#">ul. Wierzbowa 42<br>71-025 Szczecin</a>
+            </nav>
+          </div>
+        </div>
+        
+        <div class="footer-bottom">
+          <p>&copy; 2024 Octosport. Design i wykonanie Maks Zabavchuk.</p>
+          <div class="footer-legal">
+            <a href="#">Polityka prywatności</a>
+            <a href="#">Regulamin</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- BACK TO TOP -->
+  <button class="back-top" id="backTop" aria-label="Powrót na górę">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <path d="M18 15l-6-6-6 6"/>
+    </svg>
+  </button>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>
